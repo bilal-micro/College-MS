@@ -29,6 +29,15 @@ namespace CollegeMS.ViewModel
         public void getMyLevelCourses()
         {
             _Courses = new ObservableCollection<Course>(new CourseDBHandler().GetByLevel(Student.Level));
+            _GPATables = new ObservableCollection<GPATableCalculation>();
+            foreach (var item in Courses)
+            {
+                _GPATables.Add(new GPATableCalculation()
+                {
+                    Course = item,
+                    Grade = 0.0,
+                });           
+            }
         }
         public ObservableCollection<GPATableCalculation> _GPATables
         {

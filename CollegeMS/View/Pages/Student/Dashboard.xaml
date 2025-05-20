@@ -24,11 +24,11 @@
             <!--studentmenue buttons in border do not make Buttons in one border pls because it does not run   -->
 
             <Button Margin="143,276,547,111" Content="Your Data" Command="{Binding navigationComand}" CommandParameter="StudentData"  Style="{StaticResource ButtonTransparent}" />
-            <Button Margin="345,276,345,111"  Content="Courses" Command="{Binding navigationComand}" CommandParameter="AllCourses"  Style="{StaticResource ButtonTransparent}"  />
+            <Button Margin="345,276,345,111"  Content="Courses" Command="{Binding navigationComand}" CommandParameter="AllCoursesStundet"  Style="{StaticResource ButtonTransparent}"  />
             <Button Visibility="Collapsed" Margin="536,276,134,111"   Content="Course Registeration"  Style="{StaticResource ButtonTransparent}" Width="130" />
 
             <!--Back button -->
-            <Button Content="↩" FontSize="20" Style="{StaticResource triggerrr}" Margin="39,379,651,8" />
+            <Button Visibility="Collapsed" Content="↩" FontSize="20" Style="{StaticResource triggerrr}" Margin="39,379,651,8" />
         </Grid>
     </Grid>
 </Page>

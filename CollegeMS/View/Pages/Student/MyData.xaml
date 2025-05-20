@@ -51,10 +51,8 @@
 
 
             <TextBlock Text="Parent Phone:" Style="{StaticResource StudentDataTEXT_BLOCK}" Margin="537,326,39,79"/>
-            <TextBlock Text="{Binding Student.Name , Mode=TwoWay , UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource StudentDataTEXT_BLOCK}" Margin="622,326,88,79" Grid.ColumnSpan="2"/>
+            <TextBlock Text="{Binding Student.ParentPhone , Mode=TwoWay , UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource StudentDataTEXT_BLOCK}" Margin="622,326,88,79" Grid.ColumnSpan="2"/>
 
-            <TextBlock Text="Your Phone:" Style="{StaticResource StudentDataTEXT_BLOCK}" Margin="537,376,39,29"/>
-            <TextBlock Text="{Binding Student.ParentPhone , Mode=TwoWay , UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource StudentDataTEXT_BLOCK}" Margin="622,376,88,29" Grid.ColumnSpan="2"/>
 
             <!--Here i make textblock as a Header of ComboBox -->
             <TextBlock Visibility="Collapsed" Text="GPA:" Style="{StaticResource TEXT_BLOCK}" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="White" Background="#692B1D" Width="42"  Height="27" Margin="390,116,0,0"  />

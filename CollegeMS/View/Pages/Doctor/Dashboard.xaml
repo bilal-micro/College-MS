@@ -29,7 +29,7 @@
             <Button Visibility="Collapsed" Content="Attendance" Margin="348,251,342,136" Style="{StaticResource ButtonTransparent}" IsEnabled="True" />
             <Button Content="Courses" Command="{Binding navigationComand}" CommandParameter="AllCoursesDoctor" Margin="350,268,350,119" Style="{StaticResource ButtonTransparent}" IsEnabled="True"/>
             <Button Content="Your Data"   Command="{Binding navigationComand}" CommandParameter="DoctorData"  Margin="604,268,96,119" Style="{StaticResource ButtonTransparent}" IsEnabled="True" />
-            <Button Content="↩"  Command="{Binding navigationComand}" CommandParameter="LogIn" FontSize="20" Style="{StaticResource triggerrr}" Margin="39,377,651,10" IsEnabled="True" />
+            <Button Visibility="Collapsed" Content="↩"  Command="{Binding navigationComand}" CommandParameter="LogIn" FontSize="20" Style="{StaticResource triggerrr}" Margin="39,377,651,10" IsEnabled="True" />
         </Grid>
     </Grid>
 </Page>

@@ -104,6 +104,11 @@ namespace CollegeMS.ViewModel.Commands
                     MainWindowViewModel.MainWindow.Frame.NavigationService.Navigate(login);
                     break;
 
+                case "GPACalculate":
+                    var gpaCalc = new CollegeMS.View.Pages.Student.GPACalculation();
+                    MainWindowViewModel.MainWindow.Frame.NavigationService.Navigate(gpaCalc);
+                    break;
+
                 default:
                     // Optionally handle unknown keys
                     MessageBox.Show("Page not found: " + pageKey);

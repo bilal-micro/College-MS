@@ -3,12 +3,60 @@
   "WorkspaceRootPath": "D:\\GitHub\\College-MS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|d:\\github\\college-ms\\collegems\\model\\handlers\\coursedbhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|solutionrelative:collegems\\model\\handlers\\coursedbhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|d:\\github\\college-ms\\collegems\\view\\pages\\doctor\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|solutionrelative:collegems\\view\\pages\\doctor\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|d:\\github\\college-ms\\collegems\\view\\pages\\manager\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|solutionrelative:collegems\\view\\pages\\manager\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|d:\\github\\college-ms\\collegems\\view\\pages\\staff\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|solutionrelative:collegems\\view\\pages\\staff\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|d:\\github\\college-ms\\collegems\\view\\pages\\student\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|solutionrelative:collegems\\view\\pages\\student\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|d:\\github\\college-ms\\collegems\\viewmodel\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|solutionrelative:collegems\\viewmodel\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|d:\\github\\college-ms\\collegems\\viewmodel\\commands\\navigatinoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|solutionrelative:collegems\\viewmodel\\commands\\navigatinoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|d:\\github\\college-ms\\collegems\\view\\pages\\student\\mydata.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|solutionrelative:collegems\\view\\pages\\student\\mydata.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|d:\\github\\college-ms\\collegems\\model\\data\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|solutionrelative:collegems\\model\\data\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|d:\\github\\college-ms\\collegems\\viewmodel\\studentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|solutionrelative:collegems\\viewmodel\\studentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|d:\\github\\college-ms\\collegems\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|solutionrelative:collegems\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|d:\\github\\college-ms\\collegems\\viewmodel\\staffviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|solutionrelative:collegems\\viewmodel\\staffviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|d:\\github\\college-ms\\collegems\\view\\pages\\student\\mycourse.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|solutionrelative:collegems\\view\\pages\\student\\mycourse.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|d:\\github\\college-ms\\collegems\\viewmodel\\commands\\navigationcomand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|solutionrelative:collegems\\viewmodel\\commands\\navigationcomand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|d:\\github\\college-ms\\collegems\\model\\handlers\\coursedbhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|solutionrelative:collegems\\model\\handlers\\coursedbhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|d:\\github\\college-ms\\collegems\\viewmodel\\commands\\student\\calculategpa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,20 +79,8 @@
       "RelativeMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|solutionrelative:collegems\\model\\componentmodel\\gpatablecalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|d:\\github\\college-ms\\collegems\\view\\pages\\student\\mycourse.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|solutionrelative:collegems\\view\\pages\\student\\mycourse.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|d:\\github\\college-ms\\collegems\\view\\pages\\student\\gpacalculation.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|solutionrelative:collegems\\view\\pages\\student\\gpacalculation.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|d:\\github\\college-ms\\collegems\\viewmodel\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|solutionrelative:collegems\\viewmodel\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|d:\\github\\college-ms\\collegems\\viewmodel\\staffviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|solutionrelative:collegems\\viewmodel\\staffviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0F8D269-9E0C-463B-A0EE-E6BD56D1EE1D}|CollegeMS\\CollegeMS.csproj|d:\\github\\college-ms\\collegems\\model\\handlers\\studentdbhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -101,24 +137,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.xaml",
+              "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\View\\Pages\\Doctor\\Dashboard.xaml",
+              "RelativeDocumentMoniker": "CollegeMS\\View\\Pages\\Doctor\\Dashboard.xaml",
+              "ToolTip": "D:\\GitHub\\College-MS\\CollegeMS\\View\\Pages\\Doctor\\Dashboard.xaml",
+              "RelativeToolTip": "CollegeMS\\View\\Pages\\Doctor\\Dashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-20T02:18:31.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StudentViewModel.cs",
-              "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\ViewModel\\StudentViewModel.cs",
-              "RelativeDocumentMoniker": "CollegeMS\\ViewModel\\StudentViewModel.cs",
-              "ToolTip": "D:\\GitHub\\College-MS\\CollegeMS\\ViewModel\\StudentViewModel.cs",
-              "RelativeToolTip": "CollegeMS\\ViewModel\\StudentViewModel.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T01:39:18.543Z",
+              "Title": "Dashboard.xaml",
+              "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\View\\Pages\\Manager\\Dashboard.xaml",
+              "RelativeDocumentMoniker": "CollegeMS\\View\\Pages\\Manager\\Dashboard.xaml",
+              "ToolTip": "D:\\GitHub\\College-MS\\CollegeMS\\View\\Pages\\Manager\\Dashboard.xaml",
+              "RelativeToolTip": "CollegeMS\\View\\Pages\\Manager\\Dashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-20T02:18:25.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.xaml",
+              "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\View\\Pages\\Staff\\Dashboard.xaml",
+              "RelativeDocumentMoniker": "CollegeMS\\View\\Pages\\Staff\\Dashboard.xaml",
+              "ToolTip": "D:\\GitHub\\College-MS\\CollegeMS\\View\\Pages\\Staff\\Dashboard.xaml",
+              "RelativeToolTip": "CollegeMS\\View\\Pages\\Staff\\Dashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-20T02:18:23.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dashboard.xaml",
+              "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\View\\Pages\\Student\\Dashboard.xaml",
+              "RelativeDocumentMoniker": "CollegeMS\\View\\Pages\\Student\\Dashboard.xaml",
+              "ToolTip": "D:\\GitHub\\College-MS\\CollegeMS\\View\\Pages\\Student\\Dashboard.xaml",
+              "RelativeToolTip": "CollegeMS\\View\\Pages\\Student\\Dashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-20T02:17:02.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyData.xaml",
+              "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\View\\Pages\\Student\\MyData.xaml",
+              "RelativeDocumentMoniker": "CollegeMS\\View\\Pages\\Student\\MyData.xaml",
+              "ToolTip": "D:\\GitHub\\College-MS\\CollegeMS\\View\\Pages\\Student\\MyData.xaml",
+              "RelativeToolTip": "CollegeMS\\View\\Pages\\Student\\MyData.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-20T02:16:25.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\Model\\Data\\Student.cs",
+              "RelativeDocumentMoniker": "CollegeMS\\Model\\Data\\Student.cs",
+              "ToolTip": "D:\\GitHub\\College-MS\\CollegeMS\\Model\\Data\\Student.cs",
+              "RelativeToolTip": "CollegeMS\\Model\\Data\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T02:15:50.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\App.config",
+              "RelativeDocumentMoniker": "CollegeMS\\App.config",
+              "ToolTip": "D:\\GitHub\\College-MS\\CollegeMS\\App.config",
+              "RelativeToolTip": "CollegeMS\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-20T02:13:52.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NavigatinoService.cs",
+              "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\ViewModel\\Commands\\NavigatinoService.cs",
+              "RelativeDocumentMoniker": "CollegeMS\\ViewModel\\Commands\\NavigatinoService.cs",
+              "ToolTip": "D:\\GitHub\\College-MS\\CollegeMS\\ViewModel\\Commands\\NavigatinoService.cs",
+              "RelativeToolTip": "CollegeMS\\ViewModel\\Commands\\NavigatinoService.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAowGAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T02:11:16.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NavigationComand.cs",
+              "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\ViewModel\\Commands\\NavigationComand.cs",
+              "RelativeDocumentMoniker": "CollegeMS\\ViewModel\\Commands\\NavigationComand.cs",
+              "ToolTip": "D:\\GitHub\\College-MS\\CollegeMS\\ViewModel\\Commands\\NavigationComand.cs",
+              "RelativeToolTip": "CollegeMS\\ViewModel\\Commands\\NavigationComand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T02:11:15.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "MyCourse.xaml",
               "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\View\\Pages\\Student\\MyCourse.xaml",
               "RelativeDocumentMoniker": "CollegeMS\\View\\Pages\\Student\\MyCourse.xaml",
@@ -130,33 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GPACalculation.xaml.cs",
-              "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\View\\Pages\\Student\\GPACalculation.xaml.cs",
-              "RelativeDocumentMoniker": "CollegeMS\\View\\Pages\\Student\\GPACalculation.xaml.cs",
-              "ToolTip": "D:\\GitHub\\College-MS\\CollegeMS\\View\\Pages\\Student\\GPACalculation.xaml.cs",
-              "RelativeToolTip": "CollegeMS\\View\\Pages\\Student\\GPACalculation.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T01:30:01.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GPATableCalculation.cs",
-              "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\Model\\ComponentModel\\GPATableCalculation.cs",
-              "RelativeDocumentMoniker": "CollegeMS\\Model\\ComponentModel\\GPATableCalculation.cs",
-              "ToolTip": "D:\\GitHub\\College-MS\\CollegeMS\\Model\\ComponentModel\\GPATableCalculation.cs",
-              "RelativeToolTip": "CollegeMS\\Model\\ComponentModel\\GPATableCalculation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T01:25:40.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "CalculateGPA.cs",
               "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\ViewModel\\Commands\\Student\\CalculateGPA.cs",
               "RelativeDocumentMoniker": "CollegeMS\\ViewModel\\Commands\\Student\\CalculateGPA.cs",
@@ -164,12 +273,11 @@
               "RelativeToolTip": "CollegeMS\\ViewModel\\Commands\\Student\\CalculateGPA.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAA6wCMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T01:25:05.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T01:25:05.323Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "Course.cs",
               "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\Model\\Data\\Course.cs",
               "RelativeDocumentMoniker": "CollegeMS\\Model\\Data\\Course.cs",
@@ -177,25 +285,74 @@
               "RelativeToolTip": "CollegeMS\\Model\\Data\\Course.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T01:15:28.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T01:15:28.655Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "LoginCommand.cs",
               "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\ViewModel\\Commands\\Login\\LoginCommand.cs",
               "RelativeDocumentMoniker": "CollegeMS\\ViewModel\\Commands\\Login\\LoginCommand.cs",
               "ToolTip": "D:\\GitHub\\College-MS\\CollegeMS\\ViewModel\\Commands\\Login\\LoginCommand.cs",
               "RelativeToolTip": "CollegeMS\\ViewModel\\Commands\\Login\\LoginCommand.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAIwG8AAAAUAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAIwHAAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T01:13:02.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 18,
+              "Title": "GPATableCalculation.cs",
+              "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\Model\\ComponentModel\\GPATableCalculation.cs",
+              "RelativeDocumentMoniker": "CollegeMS\\Model\\ComponentModel\\GPATableCalculation.cs",
+              "ToolTip": "D:\\GitHub\\College-MS\\CollegeMS\\Model\\ComponentModel\\GPATableCalculation.cs",
+              "RelativeToolTip": "CollegeMS\\Model\\ComponentModel\\GPATableCalculation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T01:25:40.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\ViewModel\\StudentViewModel.cs",
+              "RelativeDocumentMoniker": "CollegeMS\\ViewModel\\StudentViewModel.cs",
+              "ToolTip": "D:\\GitHub\\College-MS\\CollegeMS\\ViewModel\\StudentViewModel.cs",
+              "RelativeToolTip": "CollegeMS\\ViewModel\\StudentViewModel.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T01:39:18.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GPACalculation.xaml.cs",
+              "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\View\\Pages\\Student\\GPACalculation.xaml.cs",
+              "RelativeDocumentMoniker": "CollegeMS\\View\\Pages\\Student\\GPACalculation.xaml.cs",
+              "ToolTip": "D:\\GitHub\\College-MS\\CollegeMS\\View\\Pages\\Student\\GPACalculation.xaml.cs",
+              "RelativeToolTip": "CollegeMS\\View\\Pages\\Student\\GPACalculation.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T01:30:01.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StaffViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\ViewModel\\StaffViewModel.cs",
+              "RelativeDocumentMoniker": "CollegeMS\\ViewModel\\StaffViewModel.cs",
+              "ToolTip": "D:\\GitHub\\College-MS\\CollegeMS\\ViewModel\\StaffViewModel.cs",
+              "RelativeToolTip": "CollegeMS\\ViewModel\\StaffViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T00:50:21.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "CourseDBHandler.cs",
               "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\Model\\Handlers\\CourseDBHandler.cs",
               "RelativeDocumentMoniker": "CollegeMS\\Model\\Handlers\\CourseDBHandler.cs",
@@ -208,19 +365,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "GPACalculation.xaml",
               "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\View\\Pages\\Student\\GPACalculation.xaml",
               "RelativeDocumentMoniker": "CollegeMS\\View\\Pages\\Student\\GPACalculation.xaml",
               "ToolTip": "D:\\GitHub\\College-MS\\CollegeMS\\View\\Pages\\Student\\GPACalculation.xaml",
               "RelativeToolTip": "CollegeMS\\View\\Pages\\Student\\GPACalculation.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-20T01:32:36.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T01:32:36.131Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "RegisterStudent.cs",
               "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\ViewModel\\Commands\\Staff\\RegisterStudent.cs",
               "RelativeDocumentMoniker": "CollegeMS\\ViewModel\\Commands\\Staff\\RegisterStudent.cs",
@@ -228,12 +384,11 @@
               "RelativeToolTip": "CollegeMS\\ViewModel\\Commands\\Staff\\RegisterStudent.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAA5wCgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T01:38:57.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T01:38:57.28Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "GPAHandler.cs",
               "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\Model\\Handlers\\GPAHandler.cs",
               "RelativeDocumentMoniker": "CollegeMS\\Model\\Handlers\\GPAHandler.cs",
@@ -241,12 +396,11 @@
               "RelativeToolTip": "CollegeMS\\Model\\Handlers\\GPAHandler.cs",
               "ViewState": "AQIAADcAAAAAAAAAAAAqwFYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T00:51:26.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T00:51:26.123Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "ManagerDBHandler.cs",
               "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\Model\\Handlers\\ManagerDBHandler.cs",
               "RelativeDocumentMoniker": "CollegeMS\\Model\\Handlers\\ManagerDBHandler.cs",
@@ -254,12 +408,11 @@
               "RelativeToolTip": "CollegeMS\\Model\\Handlers\\ManagerDBHandler.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwBcAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T00:59:53.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T00:59:53.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 27,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\App.xaml.cs",
               "RelativeDocumentMoniker": "CollegeMS\\App.xaml.cs",
@@ -267,12 +420,11 @@
               "RelativeToolTip": "CollegeMS\\App.xaml.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T00:59:35.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T00:59:35.325Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "StudentDBHandler.cs",
               "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\Model\\Handlers\\StudentDBHandler.cs",
               "RelativeDocumentMoniker": "CollegeMS\\Model\\Handlers\\StudentDBHandler.cs",
@@ -280,12 +432,11 @@
               "RelativeToolTip": "CollegeMS\\Model\\Handlers\\StudentDBHandler.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAgwCIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T00:55:29.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T00:55:29.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "StaffDBHandler.cs",
               "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\Model\\Handlers\\StaffDBHandler.cs",
               "RelativeDocumentMoniker": "CollegeMS\\Model\\Handlers\\StaffDBHandler.cs",
@@ -293,12 +444,11 @@
               "RelativeToolTip": "CollegeMS\\Model\\Handlers\\StaffDBHandler.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T00:55:29.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T00:55:29.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
               "Title": "RegisterDoctor.cs",
               "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\ViewModel\\Commands\\Staff\\RegisterDoctor.cs",
               "RelativeDocumentMoniker": "CollegeMS\\ViewModel\\Commands\\Staff\\RegisterDoctor.cs",
@@ -306,25 +456,11 @@
               "RelativeToolTip": "CollegeMS\\ViewModel\\Commands\\Staff\\RegisterDoctor.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAewBMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T00:51:50.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T00:51:50.981Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "StaffViewModel.cs",
-              "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\ViewModel\\StaffViewModel.cs",
-              "RelativeDocumentMoniker": "CollegeMS\\ViewModel\\StaffViewModel.cs",
-              "ToolTip": "D:\\GitHub\\College-MS\\CollegeMS\\ViewModel\\StaffViewModel.cs",
-              "RelativeToolTip": "CollegeMS\\ViewModel\\StaffViewModel.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAcwBgAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T00:50:21.184Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "DoctorDBHandler.cs",
               "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\Model\\Handlers\\DoctorDBHandler.cs",
               "RelativeDocumentMoniker": "CollegeMS\\Model\\Handlers\\DoctorDBHandler.cs",
@@ -332,12 +468,11 @@
               "RelativeToolTip": "CollegeMS\\Model\\Handlers\\DoctorDBHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T00:59:47.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T00:59:47.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "Logger.cs",
               "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\Model\\Handlers\\Logger.cs",
               "RelativeDocumentMoniker": "CollegeMS\\Model\\Handlers\\Logger.cs",
@@ -345,12 +480,11 @@
               "RelativeToolTip": "CollegeMS\\Model\\Handlers\\Logger.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T00:55:17.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T00:55:17.025Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 26,
               "Title": "Manager.cs",
               "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\Model\\Data\\Manager.cs",
               "RelativeDocumentMoniker": "CollegeMS\\Model\\Data\\Manager.cs",
@@ -358,12 +492,11 @@
               "RelativeToolTip": "CollegeMS\\Model\\Data\\Manager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T01:00:49.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T01:00:49.319Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "Doctor.cs",
               "DocumentMoniker": "C:\\Users\\Belal\\AppData\\Local\\SourceServer\\3948c088831a6cf168a4e7886325f9e6b3e984124d34da7f6e0a549bde1d6b86\\CollegeMS\\Model\\Data\\Doctor.cs",
               "ToolTip": "C:\\Users\\Belal\\AppData\\Local\\SourceServer\\3948c088831a6cf168a4e7886325f9e6b3e984124d34da7f6e0a549bde1d6b86\\CollegeMS\\Model\\Data\\Doctor.cs [Read Only]",
@@ -374,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 31,
               "Title": "Doctor.cs",
               "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\Model\\Data\\Doctor.cs",
               "RelativeDocumentMoniker": "CollegeMS\\Model\\Data\\Doctor.cs",
@@ -382,20 +515,18 @@
               "RelativeToolTip": "CollegeMS\\Model\\Data\\Doctor.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T00:51:29.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T00:51:29.091Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 29,
               "Title": "DoctoreRegister.xaml",
               "DocumentMoniker": "D:\\GitHub\\College-MS\\CollegeMS\\View\\Pages\\Staff\\DoctoreRegister.xaml",
               "RelativeDocumentMoniker": "CollegeMS\\View\\Pages\\Staff\\DoctoreRegister.xaml",
               "ToolTip": "D:\\GitHub\\College-MS\\CollegeMS\\View\\Pages\\Staff\\DoctoreRegister.xaml",
               "RelativeToolTip": "CollegeMS\\View\\Pages\\Staff\\DoctoreRegister.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-20T00:49:43.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T00:49:43.848Z"
             }
           ]
         }

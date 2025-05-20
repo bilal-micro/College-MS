@@ -33,7 +33,8 @@
             </DataGrid>
 
             <!--Back button -->
-            <Button Content="↩" Command="{Binding navigationComand}" CommandParameter="DashBoardStudent" FontSize="20" Style="{StaticResource triggerrr}" Margin="39,372,651,15"/>
+            <Button Content="↩" Command="{Binding navigationComand}" CommandParameter="DashBoardStudent" FontSize="20" Style="{StaticResource triggerrr}" Margin="35,367,655,20"/>
+            <Button Content="GPA Calculation" Command="{Binding navigationComand}" CommandParameter="GPACalculate" FontSize="12" Style="{StaticResource triggerrr}" Margin="35,318,655,69"/>
         </Grid>
     </Grid>
 </Page>
