@@ -4,6 +4,7 @@ using CollegeMS.ViewModel.Commands;
 using CollegeMS.ViewModel.Commands.Manager;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,17 +16,31 @@ namespace CollegeMS.ViewModel
     
         public NavigationComand navigationComand { get; set; } = new NavigationComand();
 
-        public List<Staff> Staffs { get; set; }
+        public ObservableCollection<Staff> Staffs { get; set; }
         public Staff staff { get; set; }
         public RegisterStaff RegisterStaff { get; set; }
         public ManagerViewModel()
         {
-            _Staff = new CollegeMS.Model.Handlers.StaffDBHandler().ReadAll();
             RegisterStaff = new RegisterStaff(this);
             staff = new Staff();
         }
+        public Staff _staff {
+            get
+            {
+                return staff;
+            }
+            set
+            {
+                staff = value;
+                OnPropertyChanged(nameof(staff));
+            }
+        }
+        public void getStaffs()
+        {
+            _staffs = new ObservableCollection<Staff>(new CollegeMS.Model.Handlers.StaffDBHandler().ReadAll());
+        }
 
-        public List<Staff> _Staff
+        public ObservableCollection<Staff> _staffs
         {
             get
             {

@@ -7,6 +7,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="View\Pages\Doctor\Courses.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="View\Pages\Doctor\StudentList.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -14,6 +17,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Pages\Staff\DoctorList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Pages\Staff\CourseList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Pages\Student\GPACalculation.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -28,7 +28,7 @@
 
         <Button Command="{Binding navigationComand}" CommandParameter="AllDoctors" Grid.Row="1" Content="Doctors" Margin="200,271,500,116" Style="{StaticResource ButtonTransparent}" />
 
-        <Button Command="{Binding navigationComand}" CommandParameter="AllCourses" Grid.Row="1" Content="Courses"   Margin="364,271,336,116" Style="{StaticResource ButtonTransparent}" RenderTransformOrigin="0.53,0.561" />
+        <Button Command="{Binding navigationComand}" CommandParameter="AllCoursesStaff" Grid.Row="1" Content="Courses"   Margin="364,271,336,116" Style="{StaticResource ButtonTransparent}" RenderTransformOrigin="0.53,0.561" />
 
         <Button Command="{Binding navigationComand}" CommandParameter="AddDoctor" Grid.Row="1" Content="Regist Doctor" Margin="519,271,181,116" Style="{StaticResource ButtonTransparent}" />
         <Button Command="{Binding navigationComand}" CommandParameter="AddStudent" Grid.Row="1" Content="Regist Student" Margin="668,271,32,116" Style="{StaticResource ButtonTransparent}" />

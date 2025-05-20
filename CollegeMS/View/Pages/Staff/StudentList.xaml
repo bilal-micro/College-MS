@@ -24,7 +24,7 @@
             </Border>
 
             <!-- Here Datagrid for table -->
-            <DataGrid x:Name="yourCoursesGrid" RowStyle="{StaticResource RowHover}"  HeadersVisibility="Column" CanUserResizeColumns="False"  AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" CanUserReorderColumns="False" CanUserResizeRows="False" CanUserSortColumns="False" IsReadOnly="True" Background="#fdf3f1" Foreground="Black" FontWeight="Bold" Margin="253,97,39,47" ItemsSource="{Binding _Students , Mode=TwoWay , UpdateSourceTrigger=PropertyChanged}" BorderBrush="Black">
+            <DataGrid x:Name="yourCoursesGrid" RowStyle="{StaticResource RowHover}"  HeadersVisibility="Column" CanUserResizeColumns="False"  AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" CanUserReorderColumns="False" CanUserResizeRows="False" CanUserSortColumns="False" IsReadOnly="True" Background="#fdf3f1" Foreground="Black" FontWeight="Bold" Margin="253,97,39,47" ItemsSource="{Binding students , Mode=TwoWay , UpdateSourceTrigger=PropertyChanged}" BorderBrush="Black">
                 <DataGrid.Columns>
                     <DataGridTextColumn HeaderStyle="{StaticResource HeaderBG}" Header="ID" Binding="{Binding id}" Width="*"/>
                     <DataGridTextColumn HeaderStyle="{StaticResource HeaderBG}" Header="Name" Binding="{Binding Name}" Width="auto" />

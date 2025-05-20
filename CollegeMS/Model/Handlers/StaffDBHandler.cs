@@ -26,7 +26,7 @@ namespace CollegeMS.Model.Handlers
 
                 string createTable = @"
                 CREATE TABLE IF NOT EXISTS Staff (
-                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    id INTEGER PRIMARY KEY,
                     Name TEXT NOT NULL,
                     Password TEXT NOT NULL,
                     Email TEXT NOT NULL,

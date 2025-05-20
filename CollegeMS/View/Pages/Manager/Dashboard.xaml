@@ -28,5 +28,8 @@
 
         <Button Command="{Binding navigationComand}" CommandParameter="AddStaff" Grid.Row="1" Content="Add Staff"   Margin="507,266,193,121" Style="{StaticResource ButtonTransparent}" />
 
+
+        <Button Content="↩"  Command="{Binding navigationComand}" CommandParameter="LogIn" FontSize="20" Style="{StaticResource triggerrr}" Margin="41,354,649,33" IsEnabled="True" Grid.Row="1" />
+
     </Grid>
 </Page>

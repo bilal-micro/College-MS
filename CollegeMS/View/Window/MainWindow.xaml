@@ -6,8 +6,9 @@
         xmlns:local="clr-namespace:CollegeMS.Views.window"
         mc:Ignorable="d"
         ResizeMode="NoResize"
+        WindowStyle="None"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Frame x:Name="Frame"/>
+        <Frame NavigationUIVisibility="Hidden" x:Name="Frame"/>
     </Grid>
 </Window>

@@ -1,4 +1,5 @@
-﻿using CollegeMS.Model.Data;
+﻿using CollegeMS.Model.ComponentModel;
+using CollegeMS.Model.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CollegeMS.Model.Handlers
 {
-    /*
+    
     static class GPAHandler
     {
         // Method to calculate course grade points and letter grade based on course percentage
@@ -64,15 +65,15 @@ namespace CollegeMS.Model.Handlers
         }
 
         // Method to calculate the GPA based on a list of courses (Semester GPA)
-        public static double CalculateSemesterGPA(List<Course> courses)
+        public static double CalculateSemesterGPA(List<GPATableCalculation> courses)
         {
             int totalCreditHours = 0;
             double totalPoints = 0.0;
 
-            foreach (Course course in courses)
+            foreach (GPATableCalculation course in courses)
             {
-                totalCreditHours += course.CreditHour;
-                totalPoints += course.GradePoints * course.CreditHour;
+                totalCreditHours += course.Course.CreditHour;
+                totalPoints += course.Grade * course.Course.CreditHour;
             }
 
             if (totalCreditHours > 0)
@@ -85,5 +86,5 @@ namespace CollegeMS.Model.Handlers
             }
         }
     }
-    */
+    
 }

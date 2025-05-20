@@ -38,7 +38,7 @@
         <!--Here right of page firstly text block then text box -->
         <TextBlock Grid.Row="1" Text="Birthdate" Style="{StaticResource TEXT_BLOCK}" Margin="538,143,172,262"/>
         <TextBlock Grid.Row="1" Text="Email" Style="{StaticResource TEXT_BLOCK}" Margin="538,204,172,201"/>
-        <DatePicker SelectedDate="{Binding Student.BirthDate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="1" Style="{StaticResource TEXT_BLOCK}" Margin="628,138,42,255"/>
+        <DatePicker SelectedDate="{Binding Student.BirthDate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="1"  Margin="628,138,42,255"/>
         <TextBox Text="{Binding Student.Email , Mode=TwoWay , UpdateSourceTrigger=PropertyChanged}" Grid.Row="1" Style="{StaticResource textboxx}" Margin="616,192,24,193"/>
 
         <!--Here Buttons -->

@@ -7,6 +7,7 @@
       mc:Ignorable="d" 
       xmlns:userControls="clr-namespace:CollegeMS.View.UserControls"
       d:DesignHeight="450" d:DesignWidth="800"
+      DataContext="{StaticResource doctorViewModel}"
       Title="MyCourse">
 
     <Grid>

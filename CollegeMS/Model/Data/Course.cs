@@ -10,5 +10,6 @@ namespace CollegeMS.Model.Data
     {
         public string Name { get; set; }
         public int CreditHour { get; set; }
+        public int Level {  get; set; }
     }
 }

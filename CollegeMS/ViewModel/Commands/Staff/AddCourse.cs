@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CollegeMS.Model.ComponentModel;
+using CollegeMS.Model.Handlers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,13 +27,23 @@ namespace CollegeMS.ViewModel.Commands.Staff
 
         public void Execute(object parameter)
         {
-            var x = StaffViewModel.course;
-            if (x.Name == null || x.CreditHour == 0)
+            try
             {
-                return;
+                var x = StaffViewModel.course;
+                if (x.Name == null || x.CreditHour == 0)
+                {
+                    return;
+                }
+                new CollegeMS.Model.Handlers.CourseDBHandler().Create(x);
+                StaffViewModel._course = new Model.Data.Course();
+                StaffViewModel.getCourses();
+                MessageBoxShow.show("Course Created");
             }
-            new CollegeMS.Model.Handlers.CourseDBHandler().Create(x);
-            StaffViewModel.course = new Model.Data.Course();
+            catch (Exception ex)
+            {
+                MessageBoxShow.show("Error");
+                Logger.SaveLogger(ex.Message, "Course-Register");
+            }
         }
     }
 }

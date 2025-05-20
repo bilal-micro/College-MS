@@ -1,8 +1,12 @@
 ﻿using CollegeMS.Model;
+using CollegeMS.Model.ComponentModel;
 using CollegeMS.Model.Data;
+using CollegeMS.Model.Handlers;
 using CollegeMS.ViewModel.Commands;
+using CollegeMS.ViewModel.Commands.Student;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Text;
@@ -13,27 +17,32 @@ namespace CollegeMS.ViewModel
     public class StudentViewModel : ObservableObject
     {
         public static Student Student { get; set; }
-        public List<Course> Courses { get; set; }
+        public ObservableCollection<Course> Courses { get; set; }
+        public ObservableCollection<GPATableCalculation> GPATables { get; set; }
         public NavigationComand navigationComand { get; set; } = new NavigationComand();    
+        public CalculateGPA CalculateGPA { get; set; }
         public StudentViewModel()
         {
-            Student = new Student()
-            {
-                id = 10,
-                Name = "Belal",
-                BirthDate = DateTime.Now,
-                F_GPA = 3,
-                ParentPhone = "01000",
-                Email = "r.@gmai.com",
-                Level = 1
-            };
-            _Courses.Add(new Course()
-            {
-                Name = "Test",
-                CreditHour = 10
-            });
+            this.CalculateGPA = new CalculateGPA(this);
+            getMyLevelCourses();
         }
-        public List<Course> _Courses
+        public void getMyLevelCourses()
+        {
+            _Courses = new ObservableCollection<Course>(new CourseDBHandler().GetByLevel(Student.Level));
+        }
+        public ObservableCollection<GPATableCalculation> _GPATables
+        {
+            get
+            {
+                return GPATables;
+            }
+            set
+            {
+                GPATables = value;
+                OnPropertyChanged(nameof(GPATables));
+            }
+        }
+        public ObservableCollection<Course> _Courses
         {
             get { return Courses; }
             set

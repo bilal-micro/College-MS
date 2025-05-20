@@ -1,0 +1,4 @@
+[2025-05-20 03:54:56] [Student-Register] SQL logic error
+table Students has no column named Level
+[2025-05-20 04:13:27] [Student-Register] SQL logic error
+7 values for 8 columns

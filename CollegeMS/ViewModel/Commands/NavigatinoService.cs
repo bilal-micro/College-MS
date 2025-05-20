@@ -15,7 +15,7 @@ namespace CollegeMS.ViewModel.Commands
             switch (pageKey)
             {
                 case "DashBoardManager":
-                    var dashBoardManagerPage = new CollegeMS.View.Pages.Doctor.Dashboard();
+                    var dashBoardManagerPage = new CollegeMS.View.Pages.Manager.Dashboard();
                     MainWindowViewModel.MainWindow.Frame.NavigationService.Navigate(dashBoardManagerPage);
                     break;
 
@@ -68,13 +68,33 @@ namespace CollegeMS.ViewModel.Commands
                     var doctorDataPage = new CollegeMS.View.Pages.Doctor.MyData();
                     MainWindowViewModel.MainWindow.Frame.NavigationService.Navigate(doctorDataPage);
                     break;
-
+                case "StudentsDataDoctor":
+                    var studentListPageDoctore = new CollegeMS.View.Pages.Doctor.StudentList();
+                    MainWindowViewModel.MainWindow.Frame.NavigationService.Navigate(studentListPageDoctore);
+                    break;
                 case "StudentData":
                     var studentDataPage = new CollegeMS.View.Pages.Student.MyData();
                     MainWindowViewModel.MainWindow.Frame.NavigationService.Navigate(studentDataPage);
                     break;
 
-                case "AllCourses":
+                case "AllCoursesDoctor":
+                    var allCoursesPageDoctor = new CollegeMS.View.Pages.Doctor.Courses();
+                    MainWindowViewModel.MainWindow.Frame.NavigationService.Navigate(allCoursesPageDoctor);
+                    break;
+
+
+                case "AllCoursesStaff":
+                    var allCoursesPageStaff = new CollegeMS.View.Pages.Staff.CourseList();
+                    MainWindowViewModel.MainWindow.Frame.NavigationService.Navigate(allCoursesPageStaff);
+                    break;
+
+                case "CreateCourseStaff":
+                    var createCourseStaff = new CollegeMS.View.Pages.Staff.CreateCourse();
+                    MainWindowViewModel.MainWindow.Frame.NavigationService.Navigate(createCourseStaff);
+                    break;
+
+
+                case "AllCoursesStundet":
                     var allCoursesPage = new CollegeMS.View.Pages.Student.MyCourse();
                     MainWindowViewModel.MainWindow.Frame.NavigationService.Navigate(allCoursesPage);
                     break;

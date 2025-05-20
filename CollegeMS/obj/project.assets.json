@@ -3847,11 +3847,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Belal\\source\\repos\\CollegeMS\\CollegeMS\\CollegeMS.csproj",
+      "projectUniqueName": "D:\\GitHub\\College-MS\\CollegeMS\\CollegeMS.csproj",
       "projectName": "CollegeMS",
-      "projectPath": "C:\\Users\\Belal\\source\\repos\\CollegeMS\\CollegeMS\\CollegeMS.csproj",
+      "projectPath": "D:\\GitHub\\College-MS\\CollegeMS\\CollegeMS.csproj",
       "packagesPath": "C:\\Users\\Belal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Belal\\source\\repos\\CollegeMS\\CollegeMS\\obj\\",
+      "outputPath": "D:\\GitHub\\College-MS\\CollegeMS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Belal\\AppData\\Roaming\\NuGet\\NuGet.Config",

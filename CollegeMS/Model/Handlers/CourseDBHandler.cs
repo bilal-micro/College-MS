@@ -23,7 +23,8 @@ namespace CollegeMS.Model.Handlers
             string sql = @"
             CREATE TABLE IF NOT EXISTS Course (
                 Name TEXT PRIMARY KEY,
-                CreditHour INTEGER NOT NULL
+                CreditHour INTEGER NOT NULL,
+                Level INTEGER NOT NULL
             );";
 
             using var cmd = new SQLiteCommand(sql, con);
@@ -35,9 +36,10 @@ namespace CollegeMS.Model.Handlers
             using var con = new SQLiteConnection(_connectionString);
             con.Open();
 
-            string sql = "INSERT INTO Course (Name, CreditHour) VALUES (@Name, @CreditHour);";
+            string sql = "INSERT INTO Course (Name, CreditHour , Level) VALUES (@Name, @CreditHour, @Level);";
             using var cmd = new SQLiteCommand(sql, con);
             cmd.Parameters.AddWithValue("@Name", course.Name);
+            cmd.Parameters.AddWithValue("@Level", course.Level);
             cmd.Parameters.AddWithValue("@CreditHour", course.CreditHour);
             cmd.ExecuteNonQuery();
         }
@@ -47,7 +49,7 @@ namespace CollegeMS.Model.Handlers
             using var con = new SQLiteConnection(_connectionString);
             con.Open();
 
-            string sql = "SELECT Name, CreditHour FROM Course WHERE Name = @Name;";
+            string sql = "SELECT Name, CreditHour , Level FROM Course WHERE Name = @Name;";
             using var cmd = new SQLiteCommand(sql, con);
             cmd.Parameters.AddWithValue("@Name", name);
             using var reader = cmd.ExecuteReader();
@@ -56,19 +58,40 @@ namespace CollegeMS.Model.Handlers
                 return new Course
                 {
                     Name = reader.GetString(0),
-                    CreditHour = reader.GetInt32(1)
+                    CreditHour = reader.GetInt32(1),
+                    Level = reader.GetInt32(2)
                 };
             }
             return null;
         }
+        public List<Course> GetByLevel(int level)
+        {
+            var courses = new List<Course>();
+            using var con = new SQLiteConnection(_connectionString);
+            con.Open();
 
+            string sql = "SELECT Name, CreditHour , Level FROM Course WHERE Level = @Level;";
+            using var cmd = new SQLiteCommand(sql, con);
+            cmd.Parameters.AddWithValue("@Level", level);
+            using var reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                courses.Add(new Course
+                {
+                    Name = reader.GetString(0),
+                    CreditHour = reader.GetInt32(1),
+                    Level = reader.GetInt32(2),
+                });
+            }
+            return courses;
+        }
         public List<Course> GetAll()
         {
             var courses = new List<Course>();
             using var con = new SQLiteConnection(_connectionString);
             con.Open();
 
-            string sql = "SELECT Name, CreditHour FROM Course;";
+            string sql = "SELECT Name, CreditHour , Level FROM Course;";
             using var cmd = new SQLiteCommand(sql, con);
             using var reader = cmd.ExecuteReader();
             while (reader.Read())
@@ -76,12 +99,14 @@ namespace CollegeMS.Model.Handlers
                 courses.Add(new Course
                 {
                     Name = reader.GetString(0),
-                    CreditHour = reader.GetInt32(1)
+                    CreditHour = reader.GetInt32(1),
+                    Level = reader.GetInt32(2),
                 });
             }
             return courses;
         }
 
+        // Not used in real world
         public void Update(Course course)
         {
             using var con = new SQLiteConnection(_connectionString);
@@ -93,7 +118,7 @@ namespace CollegeMS.Model.Handlers
             cmd.Parameters.AddWithValue("@Name", course.Name);
             cmd.ExecuteNonQuery();
         }
-
+        // also this doesnt used
         public void Delete(string name)
         {
             using var con = new SQLiteConnection(_connectionString);

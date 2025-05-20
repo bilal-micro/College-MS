@@ -12,7 +12,10 @@ namespace CollegeMS.ViewModel
     public class LoginViewModel : ObservableObject
     {
         public MainWindowViewModel mainWindowViewModel { get; set; }
-        public string userNmae { get; set; }    
+        public string userNmae { 
+            get; 
+            set; 
+        }    
         public string password { get; set; }
 
         public LoginCommand Login { get; set; }

@@ -7,6 +7,7 @@
       mc:Ignorable="d" 
       xmlns:userControls="clr-namespace:CollegeMS.View.UserControls"
       d:DesignHeight="450" d:DesignWidth="800"
+      DataContext="{StaticResource doctorViewModel}"
       Title="MyData">
 
     <Grid>
@@ -38,7 +39,7 @@
         <TextBlock Grid.Row="1" Text="{Binding doctor.Course.Name}" Style="{StaticResource TEXT_BLOCK}" Margin="630,94,80,311"/>
 
         <!--Back buttn -->
-        <Button Command="{Binding navigationComand}" CommandParameter="DashBoardDoctor" Content="↩" FontSize="20" Style="{StaticResource triggerrr}" Margin="42,366,648,21" />
+        <Button Content="↩"  Command="{Binding navigationComand}" CommandParameter="DashBoardDoctor" FontSize="20" Style="{StaticResource triggerrr}" Margin="33,359,657,28" IsEnabled="True" Grid.Row="1" />
 
     </Grid>
 </Page>

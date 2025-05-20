@@ -53,7 +53,7 @@ namespace CollegeMS.Model.Handlers
 
             string query = @"
             INSERT INTO Students (Name , Password , Level , Email, BirthDate, Role, ParentPhone, F_GPA)
-            VALUES (@Name , @Password , @Email, @BirthDate, @Role, @ParentPhone, @F_GPA);
+            VALUES (@Name , @Password , @Level , @Email, @BirthDate, @Role, @ParentPhone, @F_GPA);
             SELECT last_insert_rowid();";
 
             using var cmd = new SQLiteCommand(query, conn);
