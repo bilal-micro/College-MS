@@ -28,6 +28,7 @@ namespace CollegeMS.ViewModel.Commands.Staff
                 var x = StaffViewModel.Student;
                 if (x.Name == null || x.Email == null || x.ParentPhone == null || x.BirthDate == null || x.Password == null)
                 {
+                    MessageBoxShow.show("Null Data");
                     return;
                 }
 

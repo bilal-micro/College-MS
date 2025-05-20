@@ -32,6 +32,7 @@ namespace CollegeMS.ViewModel.Commands.Staff
                 var x = StaffViewModel.course;
                 if (x.Name == null || x.CreditHour == 0)
                 {
+                    MessageBoxShow.show("Null Data");
                     return;
                 }
                 new CollegeMS.Model.Handlers.CourseDBHandler().Create(x);

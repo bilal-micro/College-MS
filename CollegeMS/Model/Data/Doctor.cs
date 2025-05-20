@@ -12,10 +12,9 @@ namespace CollegeMS.Model.Data
         public string Name { get  ; set  ; }
         public string Password { get; set; }
         public string Email { get  ; set  ; }
-        public DateTime BirthDate { get  ; set  ; }
+        public DateTime BirthDate { get  ; set  ; } = DateTime.Now;
         public string Role { get; set; } = "Doctor";
-        public Course Course { get; 
-            set; }
+        public Course Course { get; set; }
         public Doctor()
         {
 

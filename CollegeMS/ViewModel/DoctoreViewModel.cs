@@ -22,6 +22,7 @@ namespace CollegeMS.ViewModel
         {
             _Students = new ObservableCollection<Student>(new CollegeMS.Model.Handlers.StudentDBHandler().GetStudents());
             navigationComand = new NavigationComand();
+            getCourses();
         }
         public void getCourses()
         {

@@ -32,6 +32,7 @@ namespace CollegeMS.ViewModel.Commands.Manager
                 var x = ManagerViewModel.staff;
                 if (x.Name == null || x.Email == null || x.Name == null || x.BirthDate == null || x.Password == null)
                 {
+                    MessageBoxShow.show("Null Data");
                     return;
                 }
                 new CollegeMS.Model.Handlers.StaffDBHandler().Create(x);

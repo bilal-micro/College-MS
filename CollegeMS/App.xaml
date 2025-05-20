@@ -13,7 +13,6 @@
 
             </ResourceDictionary.MergedDictionaries>
 
-
             <VMPage:DoctorViewModel x:Key="doctorViewModel" />
             <VMPage:LoginViewModel x:Key="loginViewModel" />
             <VMPage:MainWindowViewModel x:Key="mainWindowViewModel"  />

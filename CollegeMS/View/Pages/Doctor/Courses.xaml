@@ -7,7 +7,7 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="MyCourse"
-      DataContext="{StaticResource studentViewModel}"
+      DataContext="{StaticResource doctorViewModel}"
       xmlns:userControls="clr-namespace:CollegeMS.View.UserControls">
 
     <Grid>
@@ -24,7 +24,7 @@
             </Border>
 
             <!--Here Datagrid for regist -->
-            <DataGrid  SelectionUnit="FullRow" ItemsSource="{Binding _Courses , Mode=TwoWay , UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True"  RowStyle="{StaticResource RowHover}" HorizontalAlignment="Left" VerticalAlignment="Center" Width="500" Height="250" x:Name="RegistGrid" HeadersVisibility="Column" CanUserResizeColumns="False"  AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" CanUserReorderColumns="False" CanUserResizeRows="False" CanUserSortColumns="False"  Background="#fdf3f1" Foreground="Black" FontWeight="Bold" Margin="260,0,0,0"  BorderBrush="Black" BorderThickness="2" >
+            <DataGrid  SelectionUnit="FullRow" ItemsSource="{Binding courses , Mode=TwoWay , UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True"  RowStyle="{StaticResource RowHover}" HorizontalAlignment="Left" VerticalAlignment="Center" Width="500" Height="250" x:Name="RegistGrid" HeadersVisibility="Column" CanUserResizeColumns="False"  AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" CanUserReorderColumns="False" CanUserResizeRows="False" CanUserSortColumns="False"  Background="#fdf3f1" Foreground="Black" FontWeight="Bold" Margin="260,0,0,0"  BorderBrush="Black" BorderThickness="2" >
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="Course" Binding="{Binding Name}" HeaderStyle="{StaticResource HeaderBG}" IsReadOnly="True" Width="auto"/>
                     <DataGridTextColumn Header="CH" Binding="{Binding CreditHour}" HeaderStyle="{StaticResource HeaderBG}" IsReadOnly="True" Width="*" />

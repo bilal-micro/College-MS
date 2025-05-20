@@ -68,7 +68,7 @@ namespace CollegeMS.View.UserControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CollegeMS;component/view/titlebar.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CollegeMS;V1.0.0.0;component/view/titlebar.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\TitleBar.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

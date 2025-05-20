@@ -118,7 +118,7 @@ namespace CollegeMS.Model.Handlers
 
             using var reader = cmd.ExecuteReader();
 
-            if (reader.Read())
+            while (reader.Read())
             {
                 list.Add(new Student
                 {

@@ -15,7 +15,7 @@ namespace CollegeMS.Model.Data
         public string Password { get; set;} 
         public int Level { get; set; }
         public string Email { get; set; }
-        public DateTime BirthDate { get; set; }
+        public DateTime BirthDate { get; set; } = DateTime.Now;
         public string Role { get; set; } = "Student";
         public string ParentPhone { get; set; }
         public double F_GPA { get; set; } = 0.0;

@@ -54,7 +54,7 @@ namespace CollegeMS.View.Pages.Doctor {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CollegeMS;V1.0.0.0;component/view/pages/doctor/dashboard.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CollegeMS;component/view/pages/doctor/dashboard.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\..\View\Pages\Doctor\Dashboard.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
